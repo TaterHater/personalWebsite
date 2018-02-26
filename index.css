@@ -1,7 +1,7 @@
 body {
     background-color: #5892CC;
     color: #2C3E50;
-    margin-top: 10px;
+
 }
 
 .btn btn-success{
@@ -37,6 +37,11 @@ body {
     font-weight: bold;
    color: #375B7F;
    opacity: 1;
+}
+.navbar {
+    background: #375b7f;
+    font-weight: bold;
+    color: #375B7F;
 }
 .card-group.card {
 
