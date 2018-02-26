@@ -1,43 +1,68 @@
 body {
     background-color: #5892CC;
     color: #2C3E50;
+    margin-top: 10px;
 }
 
 .btn btn-success{
     background-color: #6eb7ff;
 }
 .media{
-    background-color: #BADDFF;
+
+     background: rgba(200, 200, 200, 0.6);
+    color: #2C3E50;
+    margin: 5%;
+     border-radius: 25px;
+}
+.media-transparent{
+     background: rgba(200, 200, 200, 0.6);
     color: #2C3E50;
 
-
+     border-radius: 25px;
 }
 .media-body{
 
-    background-color: #BADDFF;
+    background: rgba(200, 200, 200, -1);
     color: #375B7F;
     font-size: 25px;
+    border-radius: 25px;
+}
+.media-body p{
+    margin: 5%;
+  font-weight: bold;
+  color: #000000;
+  opacity:1;
+}
+.front-text {
+    font-weight: bold;
+   color: #375B7F;
+   opacity: 1;
 }
 .card-group.card {
+
         margin: 0 auto; /* Added */
         float: right; /* Added */
         margin-bottom: 10px; /* Added */
+        margin-top: 10px; /* Added */
         width: 10rem;
         justify-content: center;
 }
 
 .card.card-img-top{
+
 width: 10rem;
 }
-.media{
-    background-color: #BADDFF;
-    color: #2C3E50;
-     background-clip: content-box, padding-box;
 
-}
-.media-body{
-   background-clip: content-box, padding-box;
-    background-color: #BADDFF;
-    color: #375B7F;
-    font-size: 25px;
+.parallax {
+    /* The image used */
+    background-image: url("space.jpg");
+
+    /* Set a specific height */
+    height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
