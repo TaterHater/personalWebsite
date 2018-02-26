@@ -27,6 +27,18 @@ body {
     font-size: 25px;
     border-radius: 25px;
 }
+.blog-content{
+    background: #000000;
+    color: #375B7F;
+    font-size: 25px;
+    border-radius: 25px;
+}
+#blog-content{
+    background: #000000;
+    color: #375B7F;
+    font-size: 25px;
+    border-radius: 25px;
+}
 .media-body p{
     margin: 5%;
   font-weight: bold;
