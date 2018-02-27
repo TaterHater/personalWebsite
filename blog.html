@@ -20,7 +20,7 @@
 $.getJSON( "https://moosen.im/blog/", function( data ) {
   var items = [];
   $.each( data, function( key, val ) {
-    items.push( "<div class = 'blog-item'><div class='card' id='blog-content'><div class ='card-body'>" + val.author +"<br /> "+val.body+ "</div></div></div><br />" );
+    items.push( "<div class = 'blog-item'><div class='card' id='blog-content'><div class ='card-body' style='margin:2%'>" + val.author +"<br /> "+val.body+ "</div></div></div><br />" );
   });
   $( "<div/>", {
     "class": "my-new-list",
@@ -61,6 +61,9 @@ $.getJSON( "https://moosen.im/blog/", function( data ) {
           </li>
         </ul>
     </div>
+    <br />
+    <br />
+
 <div class="blog-content">
     <div class="col-sm">
     </div>
