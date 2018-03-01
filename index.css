@@ -1,6 +1,6 @@
 body {
     background-color: #BADFFA;
-    color: #2C3E50;
+    color: #BADFFA;
 
 }
 
@@ -9,7 +9,7 @@ body {
 }
 .media{
 
-     background: rgba(200, 200, 200, 0.6);
+     background: rgba(200, 200, 200,1);
     color: #2C3E50;
     margin: 5%;
      border-radius: 25px;
@@ -74,7 +74,7 @@ width: 10rem;
 .parallax {
     /* The image used */
 
- background: rgba(200, 200, 200, 0.6);
+ background: rgba(200, 200, 200);
     /* Set a specific height */
     height: 500px;
 

@@ -20,7 +20,7 @@
 $.getJSON( "https://moosen.im/blog/", function( data ) {
   var items = [];
   $.each( data, function( key, val ) {
-    items.push( "<div class = 'blog-item'><div class='card' id='blog-content'><div class ='card-body' style='margin:2%'>" + val.author +"<br /> "+val.body+ "</div></div></div><br />" );
+    items.push( "<div class = 'blog-item'><div class='card' id='blog-content'><div class ='card-body' style='margin:2%'>" + val.author +"<br /> "+val.date+"</br>"+val.body+ "</div></div></div><br />" );
   });
   $( "<div/>", {
     "class": "my-new-list",
@@ -42,7 +42,7 @@ $.getJSON( "https://moosen.im/blog/", function( data ) {
     <div class="jumbotron jumbotron-fluid">
         <div class="container">
             <h1 class="display-4" style="font-size:50px; font-weight: bold; text-align:center">Nick Beeson</h1>
-            <p class="lead" style="font-size:20px; text-align:center">Full Stack Web Developer</p>
+            <p class="lead" style="font-size:20px; text-align:center">Blog</p>
         </div>
     </div>
     <div class="navbar">
@@ -95,7 +95,7 @@ $.getJSON( "https://moosen.im/blog/", function( data ) {
             <div class="card" style="width: 10rem;" href="#">
                 <img class="card-img-top" style="width: 10rem;" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/square-linkedin-512.png" alt="Card image cap">
                 <div class="card-body">
-                    <h5 class="card-title">Linedin</h5>
+                    <h5 class="card-title">Linkedin</h5>
                     <a href="#" class="btn btn-primary">Go somewhere</a>
                 </div>
             </div>
@@ -103,9 +103,9 @@ $.getJSON( "https://moosen.im/blog/", function( data ) {
         </div>
         <div class="col-sm">
             <div class="card" style="width: 10rem;" href="#">
-                <img class="card-img-top" style="width: 10rem;" src="https://moosen.im/uploads/moosenim4ColoredFilled.jpg" alt="Card image cap">
+                <img class="card-img-top" style="width: 10rem;" src="https://cdn.pixabay.com/photo/2017/08/23/11/30/youtube-2672571_960_720.jpg" alt="Card image cap">
                 <div class="card-body">
-                    <h5 class="card-title">Moosen im</h5>
+                    <h5 class="card-title">Youtube</h5>
                     <a href="#" class="btn btn-primary">Go somewhere</a>
                 </div>
             </div>
@@ -114,8 +114,8 @@ $.getJSON( "https://moosen.im/blog/", function( data ) {
     </div>
         <div class="media" id='blog'>
             <div class="media-body" style="text-align:center">
-                <h5 class="mt-0">Why Use Moosen?<h5>
-                <img src="https://www.wpfreeware.com/wp-content/uploads/2014/09/placeholder-images.jpg"></img>
+                <h5 class="mt-0">Nick Beeson - nbeeson@moosen.im <h5>
+
           </div>
       </div>
     </div>
